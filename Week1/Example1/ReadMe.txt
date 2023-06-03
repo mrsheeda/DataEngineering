@@ -3,3 +3,10 @@
 [RUN pip install pandas]: Executes the command pip install pandas during the image build process, installing the pandas library into the image.
 
 ENTRYPOINT [ "bash" ]: Specifies that the default command to run when a container is created from the image is bash, which launches a bash shell.
+
+docker build -t myimage: To build an image from this Dockerfile, 
+
+docker run -it myimage: Once the image is successfully built, you can run a container from it by executing:
+
+
+
